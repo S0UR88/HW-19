@@ -1,0 +1,120 @@
+/* COMMON CSS START */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul , ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family:'Times New Roman', Times, serif ;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/* COMMON CSS START */
+
+/* back to top button */
+
+.backToTop{
+    width: 50px;
+    height: 50px;
+    background-image: conic-gradient(#6D2932 0% 0%,white 0% 0%) ;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height:50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    color: #6D2932;
+}
+
+.backToTop span{
+    background-color:white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: block;
+
+}
+
+/* back to top button */
+
+/* content */
+
+#content .container{
+    background-color: #6D2932;
+    color: #BFD8AF;
+    
+}
+
+#content h1{
+    padding: 10px 0px;
+    margin:0px 20px;
+}
+
+#content p{
+    margin:0px 30px;
+}
+
+/* content */
+
+
+/* counter */
+
+#counterSection{
+    padding: 100px 0px;
+}
+
+.card{
+    width: 170px;
+    height: 120px;
+    background-color:#BFD8AF;
+    color:#6D2932;
+    margin: 0px 45px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 8px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+/* counter */
